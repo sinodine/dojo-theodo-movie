@@ -4,13 +4,15 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     color: black;
     font-family: "Gill Sans", sans-serif;
     font-size: 1em;
-    border: 1px white solid;
+    border: 1px transparent solid;
     border-radius: 12px;
     padding: 8px 2px 12px 2px;
-    background-color: white;
+    background-color: rgb(244, 250, 255);
+
 }
 
 .moviePicture {
@@ -21,7 +23,7 @@
 }
 
 .yellow {
-    color:rgb(250, 186, 50);
+    color:rgb(50, 153, 250);
 }
 
 .black {
